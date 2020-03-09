@@ -14,9 +14,5 @@ class Book
     @genre = genre
     GENRES << genre
   end
-  def brand=(brand)
-    @brand = brand
-    BRANDS << brand
-  end
 
 end
