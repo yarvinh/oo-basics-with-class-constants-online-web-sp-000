@@ -7,7 +7,7 @@ class Shoe
     @brand = brand
     array = []
   array << brand
-  BRANDS.push(array.uniq)
+  BRANDS = array
 
 
   end
