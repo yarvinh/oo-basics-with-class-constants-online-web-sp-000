@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
     array = []
   BRANDS << brand
-   BRANDS = BRANDS.uniq
+   BRANDS << BRANDS.uniq
 
 
   end
