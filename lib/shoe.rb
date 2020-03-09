@@ -6,9 +6,13 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    array = []
-  BRANDS << brand
-   BRANDS << BRANDS.uniq
+    brands = ""
+    brands << brand
+    filter_brand = brands.uniq
+    BRANDS << filter_brand
+
+
+
 
 
   end
