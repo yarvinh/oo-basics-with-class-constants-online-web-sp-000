@@ -8,7 +8,9 @@ class Shoe
     @brand = brand
     brands = []
     brands << brand
-  BRANDS <<  brands.uniq
+    filter_brand = brands.uniq.join(", ")
+    BRANDS << filter_brand
+
 
 
 
